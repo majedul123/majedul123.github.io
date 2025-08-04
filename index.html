@@ -3,151 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md. Majedul Islam</title>
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Md. Majedul Islam - Online CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
         body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #e0eafc, #cfdef3);
-            min-height: 100vh;
+          font-family: 'Inter', sans-serif;
+          background-color: #f3f4f6;
+          color: #333;
         }
+
         header {
-            background-color: #005f73;
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+          background: linear-gradient(135deg, #1e3c72, #2a5298);
+          color: white;
+          padding: 3rem 1rem;
+          text-align: center;
         }
+
         header h1 {
-            margin: 0;
-            font-size: 2.5rem;
+          font-size: 2.8rem;
+          margin-bottom: 0.3rem;
         }
+
         header p {
-            margin-top: 0.5rem;
-            font-size: 1.2rem;
-            color: #d0f0f9;
+          font-size: 1.2rem;
         }
+
         main {
-            background: white;
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+          max-width: 960px;
+          margin: 2rem auto;
+          padding: 0 1rem;
         }
+
         section {
-            margin-bottom: 2rem;
+          background: white;
+          padding: 1.8rem;
+          border-radius: 12px;
+          box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+          margin-bottom: 2rem;
         }
-        h2 {
-            color: #005f73;
-            border-bottom: 2px solid #94d2bd;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
+
+        section h2 {
+          font-size: 1.6rem;
+          color: #1e3c72;
+          margin-bottom: 1rem;
         }
-        p, li {
-            font-size: 1rem;
-            color: #333;
-            line-height: 1.6;
+
+        .project {
+          margin-bottom: 2rem;
         }
-        a {
-            color: #008cba;
-            text-decoration: none;
-            transition: color 0.3s ease;
+
+        .project h3 {
+          color: #2a5298;
+          font-size: 1.2rem;
+          margin-bottom: 0.3rem;
         }
-        a:hover {
-            color: #005f73;
-            text-decoration: underline;
+
+        .project p {
+          margin: 0.3rem 0 1rem;
         }
-        ul {
-            list-style: disc;
-            padding-left: 20px;
+
+        .project a {
+          color: #1e3c72;
+          font-weight: 600;
+          text-decoration: none;
         }
-        strong {
-            color: #023047;
+
+        .project a:hover {
+          text-decoration: underline;
+        }
+
+        ul li {
+          margin-bottom: 0.6rem;
+        }
+
+        footer {
+          text-align: center;
+          padding: 2rem;
+          font-size: 0.9rem;
+          color: #999;
+        }
+
+        .skills-grid {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+        }
+
+        .skills-grid div {
+          background: #f0f4f8;
+          padding: 0.8rem 1rem;
+          border-radius: 6px;
+          flex: 1 1 200px;
+          font-size: 0.95rem;
         }
     </style>
 </head>
-
 <body>
-
 <header>
     <h1>Md. Majedul Islam</h1>
-    <p>Android Devloper | Kotlin | Flutter | Spring Boot </p>
+    <p>Software Engineer</p>
 </header>
 
 <main>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Address: House #15, Road #03, Aftabnagar, Badda, Dhaka</p>
-        <p>Phone: 01521447814, 01761246944</p>
-        <p>Email: <a href="mailto:majedict34@gmail.com">majedict34@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/majedul123" target="_blank">github.com/majedul123</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/majedul-islam-020546188" target="_blank">linkedin.com/in/majedul-islam-020546188</a></p>
-    </section>
 
     <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Languages: Kotlin, Java, Dart, C, C++</li>
-            <li>Frameworks: Android, Spring Boot, Flutter</li>
-            <li>Architecture: MVVM, MVI, Clean Architecture</li>
-            <li>Design Patterns: Dependency Injection, Observer, Factory</li>
-            <li>Networking: OkHttp, Retrofit, Okio</li>
-            <li>Version Control: GitHub, GitLab, Gerrit</li>
-        </ul>
+        <h2>Experience</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+            <div style="flex: 1 1 100%; background: #f9fafb; padding: 1rem; border-left: 4px solid #1e3c72; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                <span><strong>Senior Software Engineer</strong> – Brain Station 23 PLC</span>
+                <small style="color: #555;">Mar 2024 - Present</small>
+            </div>
+            <div style="flex: 1 1 100%; background: #f9fafb; padding: 1rem; border-left: 4px solid #1e3c72; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                <span><strong>Senior Software Engineer</strong> – BJIT Limited</span>
+                <small style="color: #555;">Jul 2023 - Feb 2024</small>
+            </div>
+            <div style="flex: 1 1 100%; background: #f9fafb; padding: 1rem; border-left: 4px solid #1e3c72; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                <span><strong>Software Engineer</strong> – BJIT Limited</span>
+                <small style="color: #555;">Sep 2021 - Jun 2023</small>
+            </div>
+            <div style="flex: 1 1 100%; background: #f9fafb; padding: 1rem; border-left: 4px solid #1e3c72; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                <span><strong>Software Engineer</strong> – Sticker Driver Limited</span>
+                <small style="color: #555;">Oct 2020 - Aug 2021</small>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <h2>Work Experience</h2>
-        <ul>
-            <li><strong>Brain Station-23 PLC</strong> (March 2024 - Present)
-                <ul>
-                    <li>Working with Banglalink RYZE Bangladesh Android app - <a href="https://play.google.com/store/apps/details?id=live.ryze.app" target="_blank">View App</a></li>
-                </ul>
-            </li>
-            <li><strong>BJIT Limited</strong> (July 2023 - February 2024)
-                <ul>
-                    <li>Firmware modifications for Pocketalk device - <a href="https://www.pocketalk.com/ventana/" target="_blank">View Device</a></li>
-                </ul>
-            </li>
-            <li><strong>Sticker Driver Limited</strong> (October 2019 - August 2021)
-                <ul>
-                    <li>Developed Sticker Driver App - <a href="https://play.google.com/store/apps/details?id=com.stickerify.driver" target="_blank">View App</a></li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+
 
     <section>
         <h2>Projects</h2>
-        <ul>
-            <li>MBSTU Bus Tracking System - <a href="https://github.com/majedul123/mbstu-mainProject" target="_blank">GitHub</a></li>
-            <li>Civil Structure Monitoring System - <a href="https://github.com/majedul123/MonitoringHome" target="_blank">GitHub</a></li>
-            <li>Vehicle Requisition System - <a href="https://github.com/majedul123/vehicle-requisition-system" target="_blank">GitHub</a></li>
-        </ul>
+
+        <div class="project">
+            <h3>MYBL App</h3>
+            <p><strong>Technology Used:</strong> Kotlin, MVVM, Dagger, Coroutine, RxJava</p>
+            <p><strong>Technical Responsibility:</strong> Working with Banglalink on their MyBL android application as a core developer. Collaborated with a diverse team to ensure the app met user needs and maintained a high standard of functionality.</p>
+            <p><strong>Project Link:</strong> <a href="https://play.google.com/store/apps/details?id=com.arena.banglalinkmela.app" target="_blank">https://play.google.com/store/apps/details?id=com.arena.banglalinkmela.app</a></p>
+            <p><strong>Project Duration:</strong> January, 2025 - Present</p>
+            <p><strong>Short Description:</strong> A comprehensive super‑app by Banglalink in Bangladesh, offering a wide range of digital services such as entertainment, learning, bill payments, healthcare, ticketing, and more. Rated around 4.4★ on Google Play with over 10 million+ downloads.</p>
+        </div>
+
+        <div class="project">
+            <h3>Ryze Bangladesh App</h3>
+            <p><strong>Technologies:</strong> Kotlin, MVVM, Koin, Coroutine, Exo Player</p>
+            <p><strong>Description:</strong> An AI-powered super app by Banglalink combining mobile services, entertainment, learning, health consultations, and bill payments. Developed the app from scratch and implemented features like login, profile, loyalty management, and language switching.</p>
+            <a href="https://play.google.com/store/apps/details?id=live.ryze.app" target="_blank">View on Google Play</a>
+        </div>
+
+        <div class="project">
+            <h3>Pocketalk – Translation App</h3>
+            <p><strong>Technologies:</strong> AOSP, Java, Firebase, Singleton Pattern</p>
+            <p><strong>Description:</strong> Worked with AOSP firmware customization for Pocketalk, a voice translation device supporting 92+ languages. Implemented server-controlled device settings like Wi-Fi configuration, pin management, and factory reset. Developed core features for voice translation and device management.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.pocketalk.android.pt.translation" target="_blank">View on Google Play</a>
+        </div>
+
+        <div class="project">
+            <h3>Sticker Driver</h3>
+            <p><strong>Technologies:</strong> Android, Kotlin, Retrofit, MVVM</p>
+            <p><strong>Description:</strong> Developed core features for Bangladesh’s first on-vehicle ad platform. Implemented real-time vehicle tracking, campaign management, and performance analytics. Helped drivers monetize their vehicle space while offering businesses a targeted advertising medium.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.stickerify.driver" target="_blank">View on Google Play</a>
+        </div>
     </section>
+
+
 
     <section>
         <h2>Education</h2>
-        <ul>
-            <li>B.Sc(Engg.) in ICT, MBSTU (CGPA: 3.72)</li>
-            <li>H.S.C from Saidpur Govt. Technical College (GPA: 5.00)</li>
-            <li>S.S.C from Panchagarh B.P. Govt. High School (GPA: 5.00)</li>
-        </ul>
+        <p>B.Sc in ICT, Mawlana Bhashani Science and Technology University, 2017</p>
     </section>
 
     <section>
         <h2>Reference</h2>
-        <p>Dr. Sajjad Waheed, Professor, Department of ICT, MBSTU<br>
-        Email: <a href="mailto:sajad302@yahoo.com">sajad302@yahoo.com</a> | Phone: +8801787064807</p>
+        <p><strong>Dr. Sajjad Waheed</strong><br>Professor, Department of ICT, MBSTU<br>Email: <a href="mailto:sajad302@yahoo.com">sajad302@yahoo.com</a><br>Phone: +8801787064807</p>
     </section>
 
+    <section>
+        <h2>Achievements</h2>
+        <p>Top-performing Android employee (Rank 4) at BJIT during 2022–2023 session.</p>
+    </section>
 </main>
 
+<footer>
+    &copy; 2025 Md. Majedul Islam. All rights reserved.
+</footer>
 </body>
 </html>
